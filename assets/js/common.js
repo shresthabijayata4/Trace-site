@@ -1,4 +1,8 @@
 //----SMOOTH SCROLL---//
+
+$(".loader").delay(200).fadeOut("slow");
+$("#overlayer").delay(200).fadeOut("slow");	
+
 function init() {
     if (document.body) {
         var e = document.body,

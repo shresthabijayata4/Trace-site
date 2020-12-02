@@ -1,10 +1,14 @@
+html{
+	scroll-behavior: smooth;
+	overflow-x: hidden;
+}
 
 body {
 	color:#444;
 	font:normal 16px "Raleway","Helvetica Neue",Helvetica,Arial,sans-serif;
 	font-weight:300;
 	background-color:#fff;
-	overflow-x:hidden;
+	overflow-x: hidden;
 	line-height:1.5;
 }
 a {
@@ -1233,7 +1237,8 @@ img.mfp-img {
 	z-index: 4;
 }
 .justtitle {
-	margin-top:80px;
+	margin:5rem 0px 11rem 0;
+	font-size: 4rem;
 }
 .parallax {
 	background-repeat: no-repeat;
@@ -1411,9 +1416,9 @@ img.mfp-img {
 			
 			.footerhead .col-md-4{
 				background-color: #5CEAE6;
-				height: 10%;
+				height: 35px;
 				color: white;
-				padding-top: 10px;
+				padding-top: 5px;
 				
 			}
 			/* .footerhead a:link{
@@ -1513,4 +1518,98 @@ img.mfp-img {
 				.trace-title{
 					text-align: center;
 				}
+				.about-center{
+					text-align: left; color: white; font-size: 20px; padding-right: 0rem !important;
+				}
+				.about-center p{
+					padding: 0 !important;
+				}
+				.partners img{
+					padding: 0 !important;
+					margin: 0 !important;
+					
+				}
+				#header{
+					z-index: 9999;
+				}
+				.col1, .col2{
+					display: none;
+				}
+				.img-button{
+					font-size: 40px;
+				}
+				.image-col{
+					margin-top: 37% !important;
+				}
+				.justtitle {
+					margin:2rem 0px 2rem 0;
+					font-size: 4rem;
+				}
+				body{
+					overflow-x: hidden;
+				}
 			}
+
+			#overlayer {
+				width: 100%;
+				height: 100%;
+				position: fixed;
+				z-index: 7100;
+				background: #fff;
+				top: 0;
+				left: 0;
+				right: 0;
+				bottom: 0; }
+
+				/*PRELOADING------------ */
+#overlayer {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	z-index: 7100;
+	background: #fff;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0; }
+	
+  .loader {
+	z-index: 7700;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%); }
+
+	.about-center{
+		text-align: left; color: white; font-size: 20px; padding-right: 11rem;
+	}
+
+	.card-about:hover p.card-text{
+		
+		color: #444 !important;
+	}
+
+	.card-about:hover{
+		background-color: white;
+		opacity: 0.9;
+	}
+
+
+	
+
+	.image-responsive{
+		margin: 0 auto;
+		text-align: center;
+		justify-content: center;
+	}
+	.img-button{
+		background-color: transparent; font-size: 30px; padding: 10; border: none;float: right;
+	}
+	.img-button:hover{
+		background-color: transparent; 	}
+	
+	
+
+	
